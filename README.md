@@ -22,7 +22,7 @@ sudo make install
 
 **evmOp** 使用方式如下：
 
-**./evmOp <opType> <solFile> <contractName> <solcVersion> <solcOpEnabled> <solcOpRuns>**
+**./evmOp** **<opType>** **<solFile>** **<contractName>** **<solcVersion>** **<solcOpEnabled>** **<solcOpRuns>**
 
 其中
 
