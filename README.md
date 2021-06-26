@@ -16,9 +16,13 @@ sudo make install
 **./evmOp <opType> <solFile> <contractName> <solcVersion> <solcOpEnabled> <solcOpRuns>**
 
 其中
+
 opType : 优化选项
+
 > 1 : 仅进行冗余assertion优化
+
 > 2 : 仅进行storage重复读取优化
+
 > 3 : 同时进行以上两种优化
 
 solFile : 待验证合约源代码文件路径
