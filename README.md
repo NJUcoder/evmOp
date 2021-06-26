@@ -17,11 +17,16 @@ sudo make install
 
 其中
 opType : 优化选项
-## 1 : 仅进行冗余assertion优化
-## 2 : 仅进行storage重复读取优化
-## 3 : 同时进行以上两种优化
+> 1 : 仅进行冗余assertion优化
+> 2 : 仅进行storage重复读取优化
+> 3 : 同时进行以上两种优化
+
 solFile : 待验证合约源代码文件路径
+
 contractName : 待验证合约名
+
 solcVersion : Solidity编译器版本
+
 solcOpEnabled (默认为true): true or false, 表示是否开启编译器的编译优化选项
+
 solcOpRuns (默认为200): Estimated number of contract runs for optimizer tuning.
